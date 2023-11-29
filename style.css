@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONTAWESOME ICONS */
+[class|="fa"] {
+  color: white;
+}
+
+/* Dimensioni */
+
+body {
+  height: 100vh;
+}
+
+main {
+}
+
+header {
+  height: 60px;
+  position: sticky;
+  background-color: black;
+  display: hidden;
+}
+
+footer {
+  height: 80px;
+  background-color: #212121;
+}
+
+/* HEADER BUTTONS */
+
+.buttoncontainer {
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+.headerbutton {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: #4a4a4a;
+  border-style: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+}
+
+/* .buttoncontainer span {
+  display: inline-block;
+  
+} */
+
+.partecipants {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 30px 30px 0;
+
+  gap: 10px 5px;
+  overflow: scroll;
+  height: calc(100vh - 140px);
+  overflow-x: hidden;
+}
+
+.camview {
+  width: calc(100vw / 7 - 30px);
+  min-width: 200px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
