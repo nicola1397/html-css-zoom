@@ -47,10 +47,9 @@ header {
   padding: 4px 4px;
 }
 
-/* .buttoncontainer span {
-  display: inline-block;
-  
-} */
+.headerbutton:hover {
+  background-color: #8b8b8b;
+}
 
 .partecipants {
   background-color: black;
@@ -68,6 +67,22 @@ header {
 .camview {
   width: calc(100vw / 7 - 30px);
   min-width: 200px;
+  position: relative;
+}
+
+.camview:hover {
+  box-shadow: 0 0 5px white;
+}
+
+/* Name Label*/
+
+.name {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #8b8b8b70;
 }
 
 img {
